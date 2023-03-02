@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+	  <title> Form </title>
+	  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	 <form>
+	 <!-- form inputs -->
+		 <fieldset>
+			 <legend> Resistration Form </legend>
+			 <label for="fname"> 1)First Name: </label>
+			 <input type="text" id="fname" name="name" value="Alex"><br><br>
+			 
+			 <label for="lname"> Last Name: </label>
+			 <input type="text" id="lname" name="lname" placeholder="Raja"><br><br>
+			 
+			 <label for="no"> 2)No: </label>
+			 <input type="number" id="no" name="no"><br><br>
+			 
+			 <label for="no"> Choose No: (B/W 1 to 9) </label>
+			 <input type="number" id="no" name="no" min="1" max="9"><br><br>
+			 
+			 <label for="bd"> 3)Birth Date: </label>
+			 <input type="date" id="bd" name="bd" min="1996-05-30" max="2020-05-30"><br><br>
+			 
+			 <label for="gmail"> 4)Email Id: </label>
+			 <input type="email" id="gmail" name="gmail"><br><br>
+			 
+			 <label for="pw"> 5)Password: </label>
+			 <input type="password" id="pw" name="pw"><br><br>
+			 
+			 <label for="cr"> 6)Fav color: </label>
+			 <input type="color" id="cr" name="cr"><br><br>
+			 			 
+			 <label for="tm"> 7)Enter time: </label>
+			 <input type="time" id="tm" name="tm"><br><br>
+			 
+			 <label for="appt"> 8)Select Week: </label>
+			 <input type="week" id="appt" name="appt"><br><br>
+			 
+			 <label for="mn"> 9)Select Month: </label>
+			 <input type="month" id="mn" name="mn"><br><br>
+			 
+			 <label for="lc"> 10)Birth Date & Time: </label>
+			 <input type="datetime-local" id="lc" name="lc"><br><br>
+			 
+			 <label for="ra"> 11)Select your mark % range: </label>
+			 <input type="range" id="ra" name="ra" min="0" max="100"><br><br>
+			 
+			 <label for="no"> 12)Enter Phone No: </label>
+			 <input type="tel" id="no" name="no" placeholder="01234-56789" pattern="[0-9]{5}-[0-9]{5}"><br><br>
+			 
+			 <label for="web"> 13)Type your page url: </label>
+			 <input type="url" id="web" name="web"><br><br>
+			 
+			 <label for="new"> 14)Search here: </label>
+			 <input type="search" id="new" name="new"> <input type="button" value="go"> <br><br>
+			 
+			 <label for="pdf"> 15)Upload here: </label>
+			 <input type="file" id="pdf" name="pdf" multiple> <br><br>
+			 
+			 <p> 16)Choose One </p>
+			 <label for="ch"> Bike </label>
+			 <input type="radio" id="ch" name="ne" value="bike"> 
+			 <label for="ch1"> Car </label>
+			 <input type="radio" id="ch1" name="ne" value="car"><br><br>
+			 
+			 <p> 17)Choose </p>
+			 <label for="fa"> Mother </label>
+			 <input type="checkbox" id="fa" name="family" value="mother"> <br><br>
+			 <label for="fa1"> Father </label>
+			 <input type="checkbox" id="fa1" name="family" value="father"><br><br>
+			 <label for="fa2"> Sister </label>
+			 <input type="checkbox" id="fa2" name="family" value="sister"><br><br>
+			 
+			 <p> 18)Hidden </p>
+			 <label for="fname">  Name: </label>
+			 <input type="text" id="fname" name="name">
+			 <input type="hidden" id="cust" name="cust" value="007">
+			 <input type="submit" value="submit"> 
+			 
+			 <p> 19)Image: </p>
+			 <input type="image" src="fb.png" width="50" height="100"> <br><br>
+			 
+			 <p> 20)Button: </p>
+			 <input type="button" onclick="alert('Welcom ALl!')" value="clik!"><br><br>
+			
+			 <input type="submit" value="Submit">			 
+		
+			 <input type="reset" value="Reset">
+		 </fieldset>
+		 </form>
+
+
+
+
+
+
+</body>
+</html>
